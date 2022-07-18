@@ -1,0 +1,16 @@
+[2022-07-18 17:22:09] local.ERROR: There are no commands defined in the "breeze:" namespace.
+
+Did you mean this?
+    breeze {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"breeze:\" namespace.
+
+Did you mean this?
+    breeze at /home/aluno/Avaliacaoweb2/provareal/vendor/symfony/console/Application.php:622)
+[stacktrace]
+#0 /home/aluno/Avaliacaoweb2/provareal/vendor/symfony/console/Application.php(673): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /home/aluno/Avaliacaoweb2/provareal/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#2 /home/aluno/Avaliacaoweb2/provareal/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#3 /home/aluno/Avaliacaoweb2/provareal/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#4 /home/aluno/Avaliacaoweb2/provareal/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#5 /home/aluno/Avaliacaoweb2/provareal/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
